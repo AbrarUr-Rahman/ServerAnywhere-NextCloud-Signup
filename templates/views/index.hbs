@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="../css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/style.css">
+  <title>ServerAnywehre</title>
+</head>
+<body>
+  {{>navbar}}
+  {{!-- Hero section starts --}}
+    <div class="container-fluid ">
+      <div class="row">
+      <div class="col-md-10 col-12-mx-auto">
+        <div class="row">
+          <div class="col-md-6 col-12 hero-text order-md-0 order-1 d-flex justify-content-center align-items-start flex-column">
+          <h1>We will help you to</h1>
+          <h1>grow your business</h1>
+          <p>We are the Team of<span> Professional Developers</span></p>
+          <button class="btn-style btn-primary">Read More</button>
+        </div>
+        {{!-- right side --}}
+         <div class="col-md-6 col-12 hero-text order-md-1 order-0">
+          <figure>
+              <img src="images/growth.svg" alt="herosection_image">
+
+          </figure>
+        </div>
+    </div>
+    </div>
+    </div>
+
+{{!-- hero sectioin ends --}}
+
+ {{!-- About Us starts --}}
+{{>about}}
+
+{{!-- About us ends --}}
+
+ {{!-- Services starts --}}
+{{>service}}
+
+
+{{!-- Services ends --}}
+
+ 
+ {{!-- Map starts --}}
+{{>maps}}
+
+{{!-- map ends --}}
+{{!-- Contact Us starts --}}
+{{>contact}}
+
+{{!-- Contact us ends --}}
+
+<script src="../jq/jquery.js" type="text/javascript"></script>  
+<script src="../js/bootstrap.js" type="text/javascript"></script>  
+
+</body>
+</html>
