@@ -1,0 +1,73 @@
+import React from "react";
+import Carousel from "react-bootstrap/Carousel";
+
+export default function WebSlider() {
+	return (
+		<div>
+			<div className="row">
+				<div className="section-title pb-3">Easy to manage</div>
+				<div className="section-text">
+					<p>
+						You have complete control over your website with the easy to use
+						cPanel control panel. This control panel allows you to control all
+						aspects of your site, from Databases, to full file access and
+						emails.
+					</p>
+				</div>
+			</div>
+			<div className="row justify-content-center pt-5">
+				<div className="col-9 text-center">
+					<div className="screenshot">
+						<Carousel>
+							<Carousel.Item>
+								<img
+									className="d-block w-100"
+									src="/images/vps/dribbble.gif"
+									alt="First slide"
+									height="500"
+								/>
+								<Carousel.Caption>
+									<h3>First slide label</h3>
+									<p>
+										Nulla vitae elit libero, a pharetra augue mollis interdum.
+									</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className="d-block w-100"
+									src="/images/vps/wordpress.gif"
+									alt="Second slide"
+									height="500"
+								/>
+
+								<Carousel.Caption>
+									<h3>Second slide label</h3>
+									<p>
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+									</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className="d-block w-100"
+									src="/images/vps/Animation.gif"
+									alt="Third slide"
+									height="500"
+								/>
+
+								<Carousel.Caption>
+									<h3>Third slide label</h3>
+									<p>
+										Praesent commodo cursus magna, vel scelerisque nisl
+										consectetur.
+									</p>
+								</Carousel.Caption>
+							</Carousel.Item>
+						</Carousel>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
+}
